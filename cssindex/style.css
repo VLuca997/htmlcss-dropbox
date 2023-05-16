@@ -6,8 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -18,8 +21,11 @@
 HEADER
 */
 .container-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    
 
 } 
 .left-h {
@@ -47,6 +53,7 @@ header nav ul li {
 }
 
 header nav ul li a {
+    justify-content: space-around;
     color:red;
     text-decoration: none;
     padding: 10px;
@@ -57,8 +64,31 @@ header nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: calc(100% / 5);
     /* padding: 10px; */
 }
+.logo{
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}
+.buttons-h{
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+}
+.navbar-dx .navbar-sx{
+    height: 40px; 
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
 
 /*
     MAIN TOP
@@ -70,11 +100,21 @@ header nav ul li a {
     margin: 0 auto;
 
 }
-main .jumbotron{
-    height: 300px;
-    width: 400px;
+.main-top{
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.Title-center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 h1{
     margin-top: 60px;
@@ -123,51 +163,48 @@ h1{
 }
 .debug header .left-h{
     border: 2px dashed red;
-
     background-color: blue;
-    width: calc(100% / 4);
 }
 .debug header .right-h{
     border: 2px dashed red;
-
     background-color: green;
-    width: calc(100% / 4);
-
 }
 .debug .logo{
     background-color: blueviolet;
     border: 2px dashed green;
-    height: 40px;
-    width: 100px;
 }
 .debug .navbar-sx > *{
     background-color: chartreuse;
     border: 2px dashed black;
-    height: 40px; 
-    padding: 10px;
+
 }
 .debug .navbar-dx > *{
     background-color: chartreuse;
     border: 2px dashed black;
-    height: 40px;
-    padding: 10px;
 }
-.debug .buttons-h,.buttons-h2{
+.debug .buttons-h{
     border: 2px dashed black;
     background-color: aqua;
-    height: 30px;
-    width: 50px;
-    margin: 5px;
+
 }
 .debug main .container-main{
     border: 2px dashed green;
     background-color: coral;
     height: 800px;
 }
-.debug main .container{
+.debug main .main-top{
     background-color: aqua;
+    min-height: 700px;
+    margin-top: 100px;
+    width: 80%;
 }
-.debug main .container-main .jumbotron{
+/* .debug main .container-main .jumbotron{
     background-color: darkorchid;
+    
+} */
+.debug main .Title-center{
+    border: 2px dashed red;
+    background-color: darkorchid;
+    
     
 }
