@@ -28,18 +28,18 @@ HEADER
     align-items: center;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     margin-right: 10px;
 }
 
-nav ul li a {
+header nav ul li a {
     color:red;
     text-decoration: none;
 }
