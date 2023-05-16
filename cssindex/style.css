@@ -1,0 +1,134 @@
+/*
+    RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+HEADER
+*/
+.container-header {
+    display: flex;
+    justify-content: space-between;
+
+} 
+.left-h {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+.right-h {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color:red;
+    text-decoration: none;
+}
+
+.right-h,.left-h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+    HEADER BOTTOM
+*/
+
+
+
+/*
+    CENTRAL MAIN
+*/
+
+
+
+/*
+    SPONSOR
+*/
+
+
+
+/*
+    CENTRAL MAIN BOTTOM SPONSOR
+*/
+
+
+
+/*
+    FOOTER
+*/
+
+
+
+
+
+/*
+    FOOTER BOTTOM
+*/
+
+
+
+/*
+    DEBUG
+*/
+.debug header > *{
+    height: 50px;
+}
+.debug header .left-h{
+    border: 2px dashed red;
+
+    background-color: blue;
+    width: calc(100% / 4);
+}
+.debug header .right-h{
+    border: 2px dashed red;
+
+    background-color: green;
+    width: calc(100% / 4);
+
+}
+.debug .logo{
+    background-color: blueviolet;
+    border: 2px dashed green;
+    height: 40px;
+    width: 100px;
+}
+.debug .navbar-sx > *{
+    background-color: chartreuse;
+    border: 2px dashed black;
+    height: 40px; 
+    margin: 5px;
+}
+.debug .navbar-dx > *{
+    background-color: chartreuse;
+    border: 2px dashed black;
+    height: 40px;
+    margin: 5px;
+}
+.debug .buttons-h,.buttons-h2{
+    border: 2px dashed black;
+    background-color: aqua;
+    height: 30px;
+    width: 50px;
+    margin: 5px;
+}
