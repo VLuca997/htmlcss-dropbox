@@ -67,7 +67,6 @@ header nav ul li a {
     align-items: center;
     justify-content: center;
     width: calc(100% / 5);
-    /* padding: 10px; */
 }
 .logo{
     margin: 10px;
@@ -127,10 +126,7 @@ margin-bottom: 100px;
 
     margin: 0 -20px;
 }
-.columns {
-    width: calc((100% / 3) - 20px);
-    margin: 0 10px;
-}
+
 .my-row.big-gutter .columns {
     width: calc((100% / 3) - 40px);
     margin: 0 20px;
@@ -150,13 +146,20 @@ main .container-small .info.big-gutter{
     margin: 0 10px;
     margin-bottom: 80px;
 }
-main #section3 .my-row.big-gutter .c
+main #section3 .my-row.big-gutter > * {
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+}
 
 
 /*
     SPONSOR
 */
-
+#section4 .sponsor-r.sponsor-c.sponsor-l{
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+}
 
 
 /*
@@ -232,9 +235,42 @@ main #section3 .my-row.big-gutter .c
     min-height: 600px;
 
 }
+.debug .column-bottom > * {
+    background-color: green;
+    border: 2px dashed yellow;
+    min-height: 250px;
+
+}
 .debug #section3 .column{
     background-color: green;
     border: 2px dashed yellow;
-    min-height: 200px;
-
+    min-height: 300px;
+    margin-bottom: 40px;
+}
+.debug #section3 .my-row .column-bottom2{
+    background-color: green;
+    border: 2px dashed yellow;
+    width: calc(100% / 2);
+}
+.debug #section3 .my-row .column-bottom2{
+    background-color: green;
+    border: 2px dashed yellow;
+    width: calc(100% / 2);
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.debug #section4 .sponsor-l{
+    background-color: blueviolet;
+    width: calc(25%);
+    min-height: 300px;
+}
+.debug #section4 .sponsor-c{
+    background-color: blueviolet;
+    width: calc(50%);
+    min-height: 300px;
+}
+.debug #section4 .sponsor-r{
+    background-color: blueviolet;
+    width: calc(25%);
+    min-height: 300px;
 }
