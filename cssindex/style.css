@@ -9,11 +9,13 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .container{
-    max-width: 1100px;
-    width: 70%;
-    display: flex;
-    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.container-small{
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -90,38 +92,25 @@ header nav ul li a {
 
 
 
+
 /*
     MAIN TOP
 */
-.container-main{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    min-height: 700px;
-
+main .info{
+    display: flex;/*colonne invece che riga*/
 }
-.main-top{
-    display: flex;
-    align-items: center;
+main .info .small-info{
+    width: 30%;
+}
+main .info .big-info{
+    width: 70%;
+}
+main .jumbotron{
     position: relative;
+    top: 50px;
 }
-.Title-center{
-    position: absolute;
-    top: 0;
-}
-h1{
-
-    font-size: 4em;
-}
-.paragraph{
-    width: calc(100% / 6);
-    height: calc(100% / 2);
-
-}
-.main-center-img{
-    width: calc(100% / 2);
-    height: calc(100% / 2);
+main header{
+margin-bottom: 100px;
 }
 
 
@@ -129,7 +118,39 @@ h1{
 /*
     CENTRAL MAIN
 */
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.my-row .big-gutter{
 
+    margin: 0 -20px;
+}
+.columns {
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px;
+}
+.my-row.big-gutter .columns {
+    width: calc((100% / 3) - 40px);
+    margin: 0 20px;
+}
+.column-bottom{
+    width: calc(100% - 20px);
+    
+}
+.my-row.big-gutter .column-bottom{
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+}
+main .container-small .info.big-gutter{
+    margin: 0 10px;
+    margin-bottom: 80px;
+}
+main #section3 .my-row.big-gutter .c
 
 
 /*
@@ -161,7 +182,7 @@ h1{
 /*
     DEBUG
 */
-.debug header > *{
+.debug #header{
     height: 50px;
 }
 .debug header .left-h{
@@ -194,27 +215,26 @@ h1{
     border: 2px dashed green;
     background-color: coral;
 }
-.debug .main-top{
+.debug main header{
     background-color: aqua;
-    margin-top: 100px;
-    width: 80%;
+    border: 2px dashed green;
+}  
+.debug .info{
+    background-color: tomato;
+    border: 2px dashed green;
 }
-/* .debug main .container-main .jumbotron{
-    background-color: darkorchid;
-    
-} */
-.debug main .Title-center{
-    border: 2px dashed red;
-    background-color: darkorchid;
-    
-    
+.debug .info > *{
+    min-height: 300px;
 }
-.debug .main-top .paragraph{
-    border: 2px dashed blue;
-    background-color: crimson;
+.debug .column{
+    background-color: green;
+    border: 2px dashed yellow;
+    min-height: 600px;
+
 }
-.debug .main-center-img{
-    border: 2px dashed red;
-    background-color: darkcyan;
-    
+.debug #section3 .column{
+    background-color: green;
+    border: 2px dashed yellow;
+    min-height: 200px;
+
 }
