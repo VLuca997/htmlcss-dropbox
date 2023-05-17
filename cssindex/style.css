@@ -220,6 +220,13 @@ main #section5 .info .big-info{
 /*
     FOOTER BOTTOM
 */
+.lenguage{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    max-width: fit-content;
+    padding-top: 20px;
+}
 
 
 
@@ -334,4 +341,12 @@ main #section5 .info .big-info{
     border: 2px dashed yellow;
     background-color: blueviolet;
 
+}
+.debug .lenguage{
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    max-width: fit-content;
+    padding-top: 20px;
+    border-color: red;
 }
