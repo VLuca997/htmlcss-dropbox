@@ -203,16 +203,16 @@ main #section5 .info .big-info{
     FOOTER
 */
 
-.footer-top > * {
+.footer-top  {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: calc(100% / 4);
 }
-.footer-info{
-    display:inline-flex ;
-    align-items: center;
-    
+.footer-top .footer-info{
+    width: calc(100% / 5);
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display:flex ;
+    min-height: 150px;
 }
 
 
