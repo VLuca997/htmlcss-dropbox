@@ -22,11 +22,16 @@ body{
 /*
 HEADER
 */
+
 .container-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
     
 
 } 
@@ -56,7 +61,7 @@ header nav ul li {
 
 header nav ul li a {
     justify-content: space-around;
-    color:red;
+    color:grey;
     text-decoration: none;
     padding: 10px;
     
@@ -69,14 +74,31 @@ header nav ul li a {
     width: calc(100% / 5);
 }
 .logo{
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     height: 40px;
     width: 100px;
+    margin-right: 40px;
 }
 .buttons-h{
     height: 30px;
-    width: 50px;
-    margin: 10px;
+    width: 45px;
+    margin: 10px 10px;
+    background-color: #297AFE;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    
+}
+.buttons-h2{
+    height: 30px;
+    width: 45px;
+    margin: 10px 10px;
+    background-color: white;
+    text-align: center;
+    
+    color: grey;
+    
 }
 .navbar-dx .navbar-sx{
     height: 40px; 
@@ -110,6 +132,7 @@ main .jumbotron{
 }
 main header{
 margin-bottom: 100px;
+background-color: #B4D0E7;
 }
 
 
@@ -236,19 +259,19 @@ main #section5 .info .big-info{
 .debug #header{
     height: 50px;
 }
-.debug header .left-h{
+/* .debug header .left-h{
     border: 2px dashed red;
     background-color: blue;
 }
 .debug header .right-h{
     border: 2px dashed red;
     background-color: green;
-}
-.debug .logo{
+} */
+/* .debug .logo{
     background-color: blueviolet;
     border: 2px dashed green;
-}
-.debug .navbar-sx > *{
+} */
+/* .debug .navbar-sx > *{
     background-color: chartreuse;
     border: 2px dashed black;
 
@@ -256,20 +279,20 @@ main #section5 .info .big-info{
 .debug .navbar-dx > *{
     background-color: chartreuse;
     border: 2px dashed black;
-}
-.debug .buttons-h{
+} */
+/* .debug .buttons-h{
     border: 2px dashed black;
     background-color: aqua;
 
-}
+} */
 .debug main .container-main{
     border: 2px dashed green;
     background-color: coral;
 }
-.debug main header{
+/* .debug main header{
     background-color: aqua;
     border: 2px dashed green;
-}  
+}   */
 .debug .info{
     background-color: tomato;
     border: 2px dashed green;
@@ -320,7 +343,7 @@ main #section5 .info .big-info{
     min-height: 300px;
 } */
 .debug main #section5 {
-    background-color: blue;
+    background-color: #B4D0E7;
     min-height: 200px;
 }
 .debug #section5 .big-info{
