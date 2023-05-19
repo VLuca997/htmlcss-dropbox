@@ -80,22 +80,26 @@ header nav ul li a {
     width: 100px;
     margin-right: 40px;
 }
-.buttons-h{
-    height: 30px;
-    width: 45px;
-    margin: 10px 10px;
-    background-color: #297AFE;
-    text-align: center;
-    border-radius: 10%;
-    color: white;
+.buttons-h,.buttons-h2,a{
+    text-decoration: none;
     
 }
+.buttons-h a{
+    color: white;
+}
+.buttons-h2 a{
+    color: #535353;
+}
+.buttons-h{
+    margin: 10px 10px;
+    padding:5px 20px;
+    background-color: #297AFE;
+    color: white; 
+}
 .buttons-h2{
-    height: 30px;
-    width: 45px;
+    padding: 5px 20px;
     margin: 10px 10px;
     background-color: white;
-    text-align: center;
     color: grey;
 }
 .navbar-dx .navbar-sx{
@@ -103,20 +107,11 @@ header nav ul li a {
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 /*
-    MAIN TOP
+    MAIN TOP HEADER
 */
 main .info{
-    display: flex;/*colonne invece che riga*/
+    display: flex;
     margin-top: 30px;
 }
 main .info .small-info{
@@ -145,29 +140,30 @@ main header .small-info .button-big{
     max-width: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
     text-align: center;
-    padding: 7px;
+    padding: 5px 20px;
+}
+main header .small-info .button-big a{
+    text-decoration: none;
+    color: white;
+
 }
 main header .small-info .inv-button{
     max-width: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: black;
     text-align: center;
-    padding: 7px;
+    padding: 5px 10px;
+
+}
+main header .small-info .inv-button a{
+    text-decoration: none;
+    color: black;
 }
 main header .small-info i{
     font-size: 3.5em;
     margin-top: 40px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -180,6 +176,7 @@ main header .small-info i{
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 2.4em;
 }
 #section1 .tariff{
     margin-left: 10px;
@@ -195,6 +192,62 @@ main header .small-info i{
 #section1 .tariff p{
     margin-right: 30px;
 }
+
+/* CARD ABBONAMENTI */
+#section1 .column > *{
+    border-color: #E5E5E7;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.card{
+    text-align: center;
+    border-bottom: 1px solid #D8D8DA;
+    padding: 5px;
+}
+#section1 .abbonamento{
+}
+main #section1 .abbonamento > h3,h4,p{
+    padding: 5px 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#section1 .abbonamento p{
+    color: #AFC5DC;
+    margin-bottom: 50px;
+}
+
+#section1 .column .info-abbonamento > p{
+    padding: 5px 0;
+    margin-bottom: 10px;
+
+}
+#section1 .column .prova-abbonamento {
+    margin-top: 30px;
+
+    padding: 10px 30px;
+    background-color: #0061FF;
+    width: fit-content;
+    text-align: center;
+}
+#section1 .column .prova-abbonamento a{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+/* #selector1 .column .acquisto-immediato p{
+    margin-top: 12230px;
+    margin-bottom: 30px;
+    
+    border-bottom-color: 2px solid red;
+
+} */
+
+
+
+
+
 
 
 
