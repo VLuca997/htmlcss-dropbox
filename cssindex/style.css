@@ -96,9 +96,7 @@ header nav ul li a {
     margin: 10px 10px;
     background-color: white;
     text-align: center;
-    
     color: grey;
-    
 }
 .navbar-dx .navbar-sx{
     height: 40px; 
@@ -119,6 +117,7 @@ header nav ul li a {
 */
 main .info{
     display: flex;/*colonne invece che riga*/
+    margin-top: 30px;
 }
 main .info .small-info{
     width: 30%;
@@ -134,7 +133,34 @@ main header{
 margin-bottom: 100px;
 background-color: #B4D0E7;
 }
-
+main header h1{
+    font-size: 3.5em;
+}
+main header .big-info img{
+    background-size: cover;
+    width: 100%;
+}
+main header .small-info .button-big{
+    background-color: #297AFE;
+    max-width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+main header .small-info .inv-button{
+    max-width: fit-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+main header .small-info i{
+    font-size: 3.5em;
+    margin-top: 40px;
+}
 
 
 /*
@@ -293,10 +319,10 @@ main #section5 .info .big-info{
     background-color: aqua;
     border: 2px dashed green;
 }   */
-.debug .info{
+/* .debug .info{
     background-color: tomato;
     border: 2px dashed green;
-}
+} */
 .debug .info > *{
     min-height: 300px;
 }
