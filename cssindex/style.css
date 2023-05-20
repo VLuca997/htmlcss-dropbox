@@ -248,7 +248,24 @@ main #section1 .abbonamento > h3,h4,p{
 #section1 .columns > *{
     border: 2px solid grey;
 }
-
+#section1 .column-bottom {
+    border: 2px solid grey;
+}
+#section1 .column-bottom .column{
+    display: inline-flex;
+    
+}
+/* #section1 .column-bottom .column,.card-bottom:not(.card){
+    width: 70%;
+}
+#section1 .column-bottom .card-bottom .mini-column:not(.card){
+    width: 30%;
+} */
+/* .column-bottom .column .card,span{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+} */
 
 
 
@@ -380,30 +397,13 @@ main #section2 .small-info .button-big {
 /*
     SPONSOR
 */
-#section4 {
+main #section4 .sponsor-container{
     display: flex;
 }
-
-.sponsor-l,.sponsor-r {
-    flex-basis: 30%;
-    display: flex;
-    flex-direction: row;
+main #section4 .sponsor-container > .sponsor{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
-.sponsor-c {
-    flex-grow: 1;
-}
-.sponsor-in-1 {
-    flex: 1;
-}
-main #section4 .sponsor-r,.sponsor-c,.sponsor-l  {
-    background-color: red;
-    height: 400px;
-    border: 2px dashed yellow;
-}
-main #section4 .sponsor-in-1{
-    border: 2px dashed yellow;
-}
-
 
 
 
