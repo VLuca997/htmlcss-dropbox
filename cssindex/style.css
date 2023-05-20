@@ -403,7 +403,175 @@ main #section4 .sponsor-container{
 main #section4 .sponsor-container > .sponsor{
     width: calc(100% / 3);
     height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
 }
+
+main #section4 .sponsor-container > .sponsor > .single-sponsor{
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* SPONSOR CARD'S */
+main #section4 .single-sponsor.img1 {
+    background-image: url('../img/designit.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+    background-color: #61082B;
+    
+}
+main #section4 .sponsor-container .sponsor .img1{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img2 {
+    background-image: url('../img/arizona_state_university.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img2{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img3 {
+    background-image: url('../img/university_of_florida.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img3{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img4 {
+    background-image: url('../img/topps.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img4{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img5 {
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img5{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img6 {
+    background-image: url('../img/hearst_corp.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img6{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img7 {
+    background-image: url('../img/lonely_planet.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor.img7{
+    background-color: #0061FF;
+    
+}
+main #section4 .single-sponsor.img8 {
+    background-image: url('../img/clear_channel.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 20%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.5);
+    background-color: #0061FF;
+
+}
+main #section4 .sponsor-container > .sponsor > .single-sponsor .img8{
+    background-color: #0061FF;
+    
+}
+main #section4 .jumbosponsor {
+    background-image: url('../img/designit.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%; 
+    height: 40%; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transform: scale(0.7);
+}
+
+
+main #section4 .img9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #section4 .img9 .text-container {
+    margin-top: 10px; /* Puoi regolare il valore a tuo piacimento */
+}
+
+
+
+
+
 
 
 
