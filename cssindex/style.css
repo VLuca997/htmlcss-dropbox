@@ -567,7 +567,7 @@ main #section4 .img9 {
 }
 
 main #section4 .img9 .text-container {
-    margin-top: -500px; /* Puoi regolare il valore a tuo piacimento */
+    margin-top: -500px; 
 }
 
 
@@ -581,6 +581,7 @@ main #section4 .img9 .text-container {
 
 #section5{
     background-color: #B4D0E7;
+    height: 17vw;
 }
 #section5 .container-small .big-info h2{
     margin-top: 100px;
@@ -615,7 +616,14 @@ main #section5 .info .big-info{
 
 
 #section6 .faq{
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 200px;
+    
+}
+.debug #section6 .faq .container-faq > *{
+    margin-bottom: 40px;
+
 }
 
 /*
@@ -634,12 +642,13 @@ main #section5 .info .big-info{
     
 }
 footer .footer-info h3{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 20px;
     color: #EAE6DA;
 }
 footer .footer-info a{
     color: white;
+    font-size: 0.9em;
     
 }
 #footer1 .footer-top .footer-info nav ul li {
@@ -647,7 +656,11 @@ footer .footer-info a{
     margin-bottom: 20px;
     list-style-type: none;
 }
-
+#footer1{
+    background-color: black;
+    border: 2px dashed yellow;
+    min-height: 300px;
+}
 
 
 /*
@@ -657,8 +670,15 @@ footer .footer-info a{
     background-color: black;
     color: white;
     margin-top: 80px;
-    max-width: fit-content;
-    padding-top: 20px;
+    
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 2px solid white;
+}
+.lenguage span{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
@@ -747,16 +767,8 @@ footer .footer-info a{
     background-color: aqua;
 
 } */
-.debug #section6 .faq{
-    background-color: grey;
-    min-height: 200px;
 
-}
-.debug #footer1{
-    background-color: black;
-    border: 2px dashed yellow;
-    min-height: 300px;
-}
+
 /* .debug #footer1 .footer-info{
     border: 2px dashed yellow;
     background-color: blueviolet;
