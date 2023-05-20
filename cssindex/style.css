@@ -236,14 +236,18 @@ main #section1 .abbonamento > h3,h4,p{
     
 
 }
-/* #selector1 .column .acquisto-immediato p{
-    margin-top: 12230px;
+#section1 .column .acquisto-immediato p{
+    margin-top: 30px;
     margin-bottom: 30px;
-    
-    border-bottom-color: 2px solid red;
+    max-width: fit-content;
+}
+.highlights h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.highlights{
 
-} */
-
+}
 
 
 
@@ -258,16 +262,22 @@ main #section1 .abbonamento > h3,h4,p{
     margin: 0 -10px;
 }
 .my-row .big-gutter{
-
+    display: flex;
     margin: 0 -20px;
 }
 
 .my-row.big-gutter .columns {
     width: calc((100% / 3) - 40px);
     margin: 0 20px;
+    
+}
+#section1 .columns > *{
+
+    align-items: stretch;
+
 }
 .column-bottom{
-    width: calc(100% - 20px);
+    width: calc(100% / 2);
     
 }
 .my-row.big-gutter .column-bottom{
@@ -396,7 +406,22 @@ main #section5 .info .big-info{
     flex-direction: column;
     flex-wrap: wrap;
     display:flex ;
-    min-height: 150px;
+    
+}
+footer .footer-info h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #EAE6DA;
+}
+footer .footer-info a{
+    color: white;
+    
+  
+}
+#footer1 .footer-top .footer-info nav ul li {
+    text-decoration: none;
+    margin-bottom: 20px;
+    list-style-type: none;
 }
 
 
@@ -521,11 +546,11 @@ main #section5 .info .big-info{
     border: 2px dashed yellow;
     min-height: 300px;
 }
-.debug #footer1 .footer-info{
+/* .debug #footer1 .footer-info{
     border: 2px dashed yellow;
     background-color: blueviolet;
 
-}
+} */
 .debug .lenguage{
     background-color: black;
     color: white;
