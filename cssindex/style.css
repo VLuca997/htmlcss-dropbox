@@ -527,7 +527,7 @@ main #section4 .sponsor-container > .sponsor > .single-sponsor.img7{
     
 }
 main #section4 .single-sponsor.img8 {
-    background-image: url('../img/clear_channel.svg');
+    background-image: url('../img/clear_channel.svg') ;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -537,10 +537,10 @@ main #section4 .single-sponsor.img8 {
     align-items: center;
     justify-content: center;
     transform: scale(0.5);
-    background-color: #0061FF;
+    
 
 }
-main #section4 .sponsor-container > .sponsor > .single-sponsor .img8{
+main #section4 .sponsor-container > .sponsor > .single-sponsor,.img8:nth-child(8){
     background-color: #0061FF;
     
 }
@@ -556,7 +556,9 @@ main #section4 .jumbosponsor {
     justify-content: center;
     transform: scale(0.7);
 }
-
+main #section4 .sponsor-container > .sponsor:nth-child(2) {
+    background-color: #F5F5F5;
+}
 
 main #section4 .img9 {
     display: flex;
@@ -565,7 +567,7 @@ main #section4 .img9 {
 }
 
 main #section4 .img9 .text-container {
-    margin-top: 10px; /* Puoi regolare il valore a tuo piacimento */
+    margin-top: -500px; /* Puoi regolare il valore a tuo piacimento */
 }
 
 
